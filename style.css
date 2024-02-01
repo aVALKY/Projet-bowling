@@ -38,17 +38,59 @@ h1{
     padding: 0px 200px;
     font-size: 25px;
 }
-body{
+#jumbotron{
     background-image: url(./assets/images/bowling_field.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #block_presentation{
     border: 3px rgb(255, 255, 255) solid;
-    background-color: rgba(0, 0, 0, 0.84);
+    background-color: rgba(0, 0, 0, 0.676);
     color: white;
     text-align: center;
     font-size: 30px;
     padding: 20px;
-    margin: 200px;
+    margin: 0px 100px;
+}
+#text_offre{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+#paragraphe_explication {
+    margin: 30px 250px;
+}
+.logo_fiche{
+    height: 100px;
+}
+ul{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin: 0px 200px;
+}
+li{
+    list-style-type: none;
+    width: 33%;
+    margin: 10px;
+}
+#fiche_blue{
+    background-color: #76B3F7;
+    padding: 60px;
+}
+#fiche_pink{
+    background-color: pink;
+    padding: 60px;
+}
+#fiche_yellow{
+    background-color: #ffe572;
+    padding: 60px;
+}
+p{
+    padding: 10px;
 }
