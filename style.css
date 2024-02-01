@@ -38,3 +38,17 @@ h1{
     padding: 0px 200px;
     font-size: 25px;
 }
+body{
+    background-image: url(./assets/images/bowling_field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#block_presentation{
+    border: 3px rgb(255, 255, 255) solid;
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 200px;
+}
