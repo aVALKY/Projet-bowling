@@ -82,15 +82,57 @@ li{
 #fiche_blue{
     background-color: #76B3F7;
     padding: 60px;
+    box-shadow: 10px 10px 10px 3px rgba(0,0,0,0.1);
 }
 #fiche_pink{
     background-color: pink;
     padding: 60px;
+    box-shadow: 10px 10px 10px 3px rgba(0,0,0,0.1);
 }
 #fiche_yellow{
     background-color: #ffe572;
     padding: 60px;
+    box-shadow: 10px 10px 10px 3px rgba(0,0,0,0.1);
 }
 p{
     padding: 10px;
+}
+#block_contacte{
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#formulaire{
+    display: flex;
+}
+#id_input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+textarea{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px rgba(166, 166, 166, 0.348) solid;
+    margin: 20px 200px 20px 0px;
+}
+input{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px rgba(166, 166, 166, 0.348) solid;
+    margin: 20px 20px 20px 200px;
+}
+#sumbit{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+#sumbit_blue{
+    background-color: #76B3F7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
 }
